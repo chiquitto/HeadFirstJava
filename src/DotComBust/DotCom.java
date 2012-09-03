@@ -23,6 +23,8 @@ public class DotCom {
 				result = "correto";
 			}
 		}
+		
+		setName("");
 
 		return result;
 	}
