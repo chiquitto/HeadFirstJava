@@ -21,7 +21,7 @@ public class SimpleAnimation {
 
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		MyDrawPanel d = new MyDrawPanel();
+		MyDrawPanel d = this.new MyDrawPanel();
 
 		f.getContentPane().add(d);
 		f.setSize(300, 300);
@@ -41,6 +41,8 @@ public class SimpleAnimation {
 	}
 
 	class MyDrawPanel extends JPanel {
+		private static final long serialVersionUID = 1L;
+
 		protected void paintComponent(Graphics g) {
 			g.setColor(Color.white);
 			g.fillRect(0, 0, getWidth(), getHeight());
