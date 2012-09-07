@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class GameCharacter implements Serializable {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	int power;
 	String type;
 	String[] weapons;
